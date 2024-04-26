@@ -1,0 +1,44 @@
+@media only screen and (max-width: 766px) {
+  .main {
+    padding: 10px 4px !important;
+  }
+}
+@font-face {
+  font-family: "popins";
+  src: url(Font/Poppins-Medium.ttf);
+}
+* {
+  font-family: "popins";
+}
+
+.navbar {
+  background-color: #512da8;
+  height: 80px;
+}
+.btn-primary {
+  background-color: #512da8;
+  border-color: #512da8;
+}
+.swal2-confirm {
+  background-color: #512da8 !important;
+  width: 90%;
+}
+.swal2-actions {
+  width: 100%;
+}
+
+.images-list > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.selected-img{
+    border: 2px solid #512da8;
+}
+
+.card{
+    background-size: cover;
+}
